@@ -9,10 +9,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@200;400;900&display=swap"
-			rel="stylesheet" />
+			rel="stylesheet"
+		/>
 		<script
 			src="https://kit.fontawesome.com/90c6c7efdc.js"
-			crossorigin="anonymous"></script>
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="./css/hamburger.css" />
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
@@ -24,14 +26,14 @@
 				</span>
 			</button>
 			<nav class="nav nav-mobile">
-				<a href="#invest">Invest</a>
-				<a href="#plan">Plan</a>
-				<a href="#contact">Contact</a>
+				<a class="nav__link" href="#invest">Invest</a>
+				<a class="nav__link" href="#plan">Plan</a>
+				<a class="nav__link" href="#contact">Contact</a>
 			</nav>
 			<nav class="nav nav-desktop">
-				<a href="#invest">Invest</a>
-				<a href="#plan">Plan</a>
-				<a href="#contact">Contact</a>
+				<a class="nav__link" href="#invest">Invest</a>
+				<a class="nav__link" href="#plan">Plan</a>
+				<a class="nav__link" href="#contact">Contact</a>
 			</nav>
 			<div class="header__text">
 				<h1 class="company-name">Diamonds, Gold & Money</h1>
@@ -45,12 +47,202 @@
 			</div>
 			<a href="#cards">
 				<div class="header__arrow">
-					<img src="./img/icons/arrow-down.svg" alt="" />
+					<img
+						class="header__arrow-icon"
+						src="./img/icons/arrow-down.svg"
+						alt=""
+					/>
 				</div>
 			</a>
-			<img src="./img/icons/square.svg" alt="" />
-			<img src="./img/icons/square.svg" alt="" />
+			<img src="./img/icons/square.svg" class="header__bg-icon-one" alt="" />
+			<img src="./img/icons/square.svg" class="header__bg-icon-two" alt="" />
 		</header>
+		<main class="main">
+			<section class="cards" id="cards">
+				<div class="wrapper">
+					<div class="cards__box">
+						<div class="cards__card cards__card--one">
+							<img src="./img/icons/trending-up.svg" alt="" />
+							<h3>profit</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+						<div class="cards__card cards__card--two">
+							<img src="./img/icons/award.svg" alt="" />
+							<h3>no. 1</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+						<div class="cards__card cards__card--three">
+							<img src="./img/icons/globe.svg" alt="" />
+							<h3>global</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="wrapper">
+				<section class="info" id="invest">
+					<div class="info__title">
+						<h2 class="section-title">invest <span>smart</span></h2>
+					</div>
+					<div class="info__boxes">
+						<div class="info__box">
+							<img
+								src="./img/cash.jpg"
+								alt="money in cash"
+								class="info__box-img"
+							/>
+							<h3 class="info__box-title">money</h3>
+							<p class="info__box-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Consequuntur soluta facilis dolorem, dicta dolor cupiditate,
+								nemo repudiandae laboriosam odit quam possimus beatae ducimus
+								nam animi, debitis cum quia saepe accusamus.
+							</p>
+							<p class="info__box-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Incidunt, velit, ipsam quam doloribus accusantium vero fugiat
+								optio, earum quasi cum porro reiciendis praesentium! Aliquid
+								alias eos voluptas amet quo eaque!
+							</p>
+							<a href="#" class="info__box-link">read more...</a>
+						</div>
+						<div class="info__box">
+							<img
+								src="./img/diamond.jpg"
+								alt="Diamonds"
+								class="info__box-img"
+							/>
+							<h3 class="info__box-title">Diamonds</h3>
+							<p class="info__box-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Consequuntur soluta facilis dolorem, dicta dolor cupiditate,
+								nemo repudiandae laboriosam odit quam possimus beatae ducimus
+								nam animi, debitis cum quia saepe accusamus.
+							</p>
+							<p class="info__box-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Incidunt, velit, ipsam quam doloribus accusantium vero fugiat
+								optio, earum quasi cum porro reiciendis praesentium! Aliquid
+								alias eos voluptas amet quo eaque!
+							</p>
+							<a href="#" class="info__box-link">read more...</a>
+						</div>
+						<div class="info__box">
+							<img
+								src="./img/goldtabs.jpg"
+								alt="gold tabs"
+								class="info__box-img"
+							/>
+							<h3 class="info__box-title">Gold</h3>
+							<p class="info__box-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Consequuntur soluta facilis dolorem, dicta dolor cupiditate,
+								nemo repudiandae laboriosam odit quam possimus beatae ducimus
+								nam animi, debitis cum quia saepe accusamus.
+							</p>
+							<p class="info__box-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Incidunt, velit, ipsam quam doloribus accusantium vero fugiat
+								optio, earum quasi cum porro reiciendis praesentium! Aliquid
+								alias eos voluptas amet quo eaque!
+							</p>
+							<a href="#" class="info__box-link">read more...</a>
+						</div>
+					</div>
+					<img
+						src="img/icons/square.svg"
+						alt=""
+						class="info__bg-icon info__bg-icon--one"
+					/>
+					<img
+						src="img/icons/square.svg"
+						alt=""
+						class="info__bg-icon info__bg-icon--two"
+					/>
+					<img
+						src="img/icons/x.svg"
+						alt=""
+						class="info__bg-icon info__bg-icon--three"
+					/>
+					<img
+						src="img/icons/x.svg"
+						alt=""
+						class="info__bg-icon info__bg-icon--four"
+					/>
+				</section>
+			</div>
+			<section class="plans" id="plan">
+				<h2 class="section-title">plan your <span>future</span></h2>
+
+				<div class="plans__box">
+					<img
+						src="img/icons/briefcase.svg"
+						alt=""
+						class="plans__item plans__item-icon"
+					/>
+					<div class="plans__item plans__item-name">
+						<h3>#easyMoney</h3>
+					</div>
+					<div class="plans__item plans__item-moeny">
+						<p><b>Contribution:</b></p>
+						<p>$250.000</p>
+					</div>
+					<div class="plans__item plans__item-term">
+						<p><b>Term:</b></p>
+						<p>2 years</p>
+					</div>
+					<div class="plans__item plans__item-profit">
+						<p><b>Profit:</b></p>
+						<p>5%-10%</p>
+					</div>
+				</div>
+				<div class="plans__box">
+					<img
+						src="img/icons/cast.svg"
+						alt=""
+						class="plans__item plans__item-icon"
+					/>
+					<div class="plans__item plans__item-name">
+						<h3>reliableStuff</h3>
+					</div>
+					<div class="plans__item plans__item-moeny">
+						<p><b>Contribution:</b></p>
+						<p>$5.000.000</p>
+					</div>
+					<div class="plans__item plans__item-term">
+						<p><b>Term:</b></p>
+						<p>5 years</p>
+					</div>
+					<div class="plans__item plans__item-profit">
+						<p><b>Profit:</b></p>
+						<p>25% - 35%</p>
+					</div>
+				</div>
+				<div class="plans__box">
+					<img
+						src="img/icons/film.svg"
+						alt=""
+						class="plans__item plans__item-icon"
+					/>
+					<div class="plans__item plans__item-name">
+						<h3>allIn</h3>
+					</div>
+					<div class="plans__item plans__item-moeny">
+						<p><b>Contribution:</b></p>
+						<p>$15.000.000</p>
+					</div>
+					<div class="plans__item plans__item-term">
+						<p><b>Term:</b></p>
+						<p>10 - 15 years</p>
+					</div>
+					<div class="plans__item plans__item-profit">
+						<p><b>Profit:</b></p>
+						<p>50% - 75%</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
 		<footer class="footer">
 			<p class="footer__bottom-text">
 				&copy;
